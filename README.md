@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/f7655d12-ff16-4591-807f-9f6ec8b8a3d9)
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/60cc1c39-e384-4a51-ab0f-f0c73d94dcba)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/dd131fb7-29df-4c62-a021-716b75095869)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/36a8c191-481d-427c-80ac-650c55f16cbf)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/e05644ee-c6be-4031-a0db-e13e6350bf8a)
 
 
 #Filters
@@ -83,16 +88,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/1e18a0f4-8c26-43f4-b498-7370e1633cfc)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/fc1eee79-85bc-480e-b347-1d1a0485af7a)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/6188d059-e5f5-40b4-af87-3727a55e47f0)
 
 
 cat < newfile 
@@ -108,10 +116,12 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/91e55dde-6c10-45f0-acf2-2c4ec03a5cf4)
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/6129cfa6-f565-4977-bc5b-4f693f955cb6)
 
 
 
@@ -119,6 +129,7 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/dakshasubbaian/OS-Linux-commands-Shell-script/assets/112880924/3c39cd3c-86a9-4196-b9e8-7315800c4f0a)
 
 
 cat newfile | grep -i "hello"
